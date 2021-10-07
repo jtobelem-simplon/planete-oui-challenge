@@ -26,8 +26,98 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "GeoPointCreator",
+      "params": {
+        "out_column": "geopoint",
+        "lat_column": "latitude",
+        "lon_column": "longitude"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "longitude",
+          "latitude"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Tokenizer",
+      "params": {
+        "inCol": "model",
+        "sortAlphabetically": false,
+        "normalize": false,
+        "language": "english",
+        "clearStopWords": false,
+        "operation": "TO_JSON",
+        "stem": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ArraySortProcessor",
+      "params": {
+        "input": "model",
+        "sortingType": "ALPHA",
+        "descending": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "[\"CHAdeMO\",\"Combo\",\"E\",\"F\",\"T2\",\"T3\"]",
+            "to": "ALL"
+          },
+          {
+            "from": "[\"E\",\"F\"]",
+            "to": "E/F"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "model"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +125,22 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "city": 100,
+    "latitude": 134,
+    "geopoint": 300,
+    "t_id": 100,
+    "zipcode": 100,
+    "s_id": 100,
+    "street": 239,
+    "model": 241,
+    "model_1": 100,
+    "model_0": 100,
+    "model_3": 100,
+    "model_2": 100,
+    "longitude": 141,
+    "model_4": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
