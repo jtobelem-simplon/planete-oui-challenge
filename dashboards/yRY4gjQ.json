@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "SncMvWr",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "jtobelem",
+  "listed": true,
+  "name": "planete-oui\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "jtobelem"
+    },
+    "lastModifiedOn": 1633624855665
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "jtobelem"
+    },
+    "lastModifiedOn": 1633624855665
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
