@@ -23,7 +23,7 @@ ytrain_long_df.set_index('timestamp', inplace=True)
 ytrain_long_df = ytrain_long_df.resample('15min').bfill()
 ytrain_long_df.reset_index(inplace=True)
 
-ytrain_long_df = pd.melt(ytrain_NpxebDC_df, id_vars=['timestamp'], var_name='station', value_name='status')
+ytrain_long_df = pd.melt(ytrain_long_df, id_vars=['timestamp'], var_name='station', value_name='status')
 
 
 # Write recipe outputs
