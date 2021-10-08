@@ -4,50 +4,73 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {},
+        "maxMatches": 1,
+        "type": "KEEP_LARGEST",
+        "enabled": false
+      },
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "station",
+            "table": 0
+          },
+          "column2": {
+            "name": "t_id",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "timestamp",
+      "type": "string",
       "table": 0
     },
     {
       "name": "station",
+      "type": "string",
       "table": 0
     },
     {
       "name": "status",
+      "type": "string",
       "table": 0
     },
     {
-      "name": "t_id",
-      "table": 1
-    },
-    {
       "name": "s_id",
+      "type": "string",
       "table": 1
     },
     {
       "name": "street",
+      "type": "string",
       "table": 1
     },
     {
       "name": "city",
+      "type": "string",
       "table": 1
     },
     {
       "name": "zipcode",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "model",
+      "type": "string",
       "table": 1
     },
     {
       "name": "geopoint",
+      "type": "string",
       "table": 1
     }
   ],
@@ -105,5 +128,51 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "timestamp",
+            "type": "string"
+          },
+          {
+            "name": "station",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "s_id",
+            "type": "string"
+          },
+          {
+            "name": "street",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "zipcode",
+            "type": "bigint"
+          },
+          {
+            "name": "model",
+            "type": "string"
+          },
+          {
+            "name": "geopoint",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
