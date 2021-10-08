@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633679065894
+    "lastModifiedOn": 1633679539197
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,70 +89,6 @@
       {
         "name": "timestamp",
         "type": "date"
-      },
-      {
-        "name": "S7-T1",
-        "type": "string"
-      },
-      {
-        "name": "S2-T1",
-        "type": "string"
-      },
-      {
-        "name": "S19-T1",
-        "type": "string"
-      },
-      {
-        "name": "S56-T3",
-        "type": "string"
-      },
-      {
-        "name": "S85-T3",
-        "type": "string"
-      },
-      {
-        "name": "S16-T3",
-        "type": "string"
-      },
-      {
-        "name": "S16-T1",
-        "type": "string"
-      },
-      {
-        "name": "S94-T3",
-        "type": "string"
-      },
-      {
-        "name": "S28-T1",
-        "type": "string"
-      },
-      {
-        "name": "S62-T3",
-        "type": "string"
-      },
-      {
-        "name": "S14-T3",
-        "type": "string"
-      },
-      {
-        "name": "S8-T1",
-        "type": "string"
-      },
-      {
-        "name": "S8-T3",
-        "type": "string"
-      },
-      {
-        "name": "S34-T3",
-        "type": "string"
-      },
-      {
-        "name": "S6-T2",
-        "type": "string"
-      },
-      {
-        "name": "S29-T3",
-        "type": "string"
       },
       {
         "name": "S64-T1",
@@ -1180,6 +1116,14 @@
       },
       {
         "name": "S99-T2",
+        "type": "string"
+      },
+      {
+        "name": "station",
+        "type": "string"
+      },
+      {
+        "name": "status",
         "type": "string"
       }
     ],
