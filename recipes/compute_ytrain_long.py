@@ -15,6 +15,13 @@ ytrain_NpxebDC_df = ytrain_NpxebDC.get_dataframe()
 ytrain_long_df = ytrain_NpxebDC_df # For this sample code, simply copy input to output
 
 
+ytrain_long_df.fillna(method='ffill', inplace=True, limit = 4)
+ytrain_long_df.fillna(value='Offline', inplace=True)
+
+ytrain_long_df['timestamp'] = pd.to_datetime(ytrain_long_df.timestamp)
+ytrain_long_df.set_index('timestamp', inplace=True)
+ytrain_long_df = ytrain_long_df.resample('15min').bfill()
+ytrain_long_df.reset_index(inplace=True)
 
 ytrain_long_df = pd.melt(ytrain_NpxebDC_df, id_vars=['timestamp'], var_name='station', value_name='status')
 
