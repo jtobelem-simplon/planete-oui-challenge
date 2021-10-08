@@ -120,7 +120,8 @@
             "column": "timestamp",
             "columnType": "DATE",
             "dateFilterType": "RANGE",
-            "minValue": 1.593116076924E12,
+            "minValue": 1.576678412309E12,
+            "maxValue": 1.581153036923E12,
             "isA": "filter",
             "excludedValues": {},
             "explicitExclude": false
