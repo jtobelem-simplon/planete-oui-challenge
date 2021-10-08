@@ -74,7 +74,15 @@
             "adminLevel": 0
           }
         ],
-        "uaTooltip": [],
+        "uaTooltip": [
+          {
+            "column": "s_id",
+            "type": "ALPHANUM",
+            "treatAsAlphanum": false,
+            "isA": "ua",
+            "adminLevel": 0
+          }
+        ],
         "groupDimension": [],
         "xMeasure": [],
         "yMeasure": [],
@@ -115,7 +123,7 @@
         "animationRepeat": true,
         "colorOptions": {
           "singleColor": "#2678B1",
-          "transparency": 0.75,
+          "transparency": 0.5,
           "colorPalette": "default",
           "ccScaleMode": "NORMAL",
           "customPalette": {
