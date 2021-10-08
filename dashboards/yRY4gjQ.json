@@ -37,11 +37,11 @@
   "name": "planete-oui\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633678687748
+    "lastModifiedOn": 1633678688435
   },
   "creationTag": {
     "versionNumber": 0,
