@@ -14,7 +14,9 @@ ytrain_NpxebDC_df = ytrain_NpxebDC.get_dataframe()
 
 ytrain_long_df = ytrain_NpxebDC_df # For this sample code, simply copy input to output
 
-pd.melt(ytrain_NpxebDC_df, id_vars=['timestamp'], var_name='station', value_name='status')
+
+
+pd.melt(ytrain_NpxebDC_df, id_vars=['timestamp'], id_vars=list(ytrain_long_df.columns[1:]), var_name='station', value_name='status')
 
 
 # Write recipe outputs
