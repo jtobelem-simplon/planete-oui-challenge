@@ -3,7 +3,7 @@
     "mode": "\u0026\u0026",
     "conditions": [
       {
-        "date": "2021-01-21",
+        "date": "2020-01-26",
         "input": "timestamp",
         "col": "station",
         "time2": "00:00",
