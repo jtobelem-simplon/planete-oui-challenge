@@ -25,62 +25,12 @@
     },
     "autoRefreshSample": false
   },
-  "explorationFilters": [
-    {
-      "validityFilter": {
-        "column": "status",
-        "type": "validity",
-        "params": {
-          "nok": false,
-          "type": "Text",
-          "ok": false,
-          "empty": true
-        }
-      },
-      "column": "status",
-      "active": true,
-      "alphanumFilter": {
-        "values": [],
-        "column": "status",
-        "type": "alphanum",
-        "params": {
-          "mode": "full_string",
-          "normalization": "exact"
-        }
-      },
-      "type": "columnFilter",
-      "$$hashKey": "object:8529",
-      "facet": {
-        "columnType": "ALPHANUM",
-        "selectedValues": {},
-        "column": "status",
-        "sort": "count",
-        "type": "facet",
-        "currentMode": "ALPHANUM"
-      },
-      "currentMode": "FACET"
-    }
-  ],
+  "explorationFilters": [],
   "origin": "PREPARE_RECIPE",
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "steps": [
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "RemoveRowsOnEmpty",
-      "params": {
-        "columns": [
-          "status"
-        ],
-        "keep": false,
-        "appliesTo": "SINGLE_COLUMN"
-      },
-      "alwaysShowComment": false
-    }
-  ],
+  "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
