@@ -3,7 +3,15 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "model_selection_mode": "auto",
+      "performance_metric": "MASE",
+      "prediction_length": -1,
+      "confidence_interval": 95,
+      "include_history": true,
+      "sampling_method": "no_sampling",
+      "number_records": 10000
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -45,11 +53,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633957143803
+    "lastModifiedOn": 1633957169658
   },
   "creationTag": {
     "versionNumber": 0,
