@@ -20,14 +20,20 @@
       "city": 100,
       "zipcode": 100,
       "model": 100,
-      "geopoint": 260
+      "geopoint": 260,
+      "status_code": 100
     },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
       "valueColoringMode": "HASH"
     },
-    "sorting": [],
+    "sorting": [
+      {
+        "column": "timestamp",
+        "ascending": true
+      }
+    ],
     "analysisColumnData": {},
     "explorationSampling": {
       "selection": {
@@ -43,14 +49,14 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "RANDOM_FIXED_NB_EXACT",
+        "samplingMethod": "TAIL_SEQUENTIAL",
         "maxRecords": 10000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1
+      "_refreshTrigger": 2
     },
     "vizSampling": {
       "autoRefreshSample": false,
