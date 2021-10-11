@@ -41,20 +41,118 @@
       }
     }
   },
-  "explicitIdentifiers": [],
-  "otherColumns": [],
+  "explicitIdentifiers": [
+    "timestamp"
+  ],
+  "otherColumns": [
+    {
+      "concatDistinct": false,
+      "column": "temperature",
+      "$idx": 0,
+      "$selected": false,
+      "type": "double",
+      "first": true,
+      "orderColumn": "timestamp",
+      "concatSeparator": ","
+    },
+    {
+      "concatDistinct": false,
+      "column": "wind_speed",
+      "$idx": 1,
+      "$selected": false,
+      "type": "double",
+      "first": true,
+      "orderColumn": "timestamp",
+      "concatSeparator": ","
+    },
+    {
+      "concatDistinct": false,
+      "column": "wind_gust_speed",
+      "$idx": 2,
+      "$selected": false,
+      "type": "double",
+      "first": true,
+      "orderColumn": "timestamp",
+      "concatSeparator": ","
+    },
+    {
+      "concatDistinct": false,
+      "column": "rain_level",
+      "$idx": 3,
+      "$selected": false,
+      "type": "double",
+      "first": true,
+      "orderColumn": "timestamp",
+      "concatSeparator": ","
+    },
+    {
+      "concatDistinct": false,
+      "column": "traffic_state",
+      "$idx": 4,
+      "$selected": false,
+      "type": "string",
+      "first": true,
+      "orderColumn": "timestamp",
+      "concatSeparator": ","
+    },
+    {
+      "concatDistinct": false,
+      "column": "average_flow",
+      "$idx": 5,
+      "$selected": false,
+      "type": "double",
+      "first": true,
+      "orderColumn": "timestamp",
+      "concatSeparator": ","
+    }
+  ],
   "pivots": [
     {
+      "valueLimit": "NO_LIMIT",
       "minOccLimit": 0,
-      "topnLimit": 0,
-      "globalCount": true,
+      "topnLimit": 20,
+      "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
         "station"
       ],
-      "valueColumns": []
+      "valueColumns": [
+        {
+          "last": false,
+          "max": false,
+          "column": "status",
+          "count": false,
+          "sum": false,
+          "concat": false,
+          "type": "string",
+          "$agg": "first",
+          "countDistinct": false,
+          "min": false,
+          "avg": false,
+          "stddev": false,
+          "first": true,
+          "orderColumn": "timestamp"
+        },
+        {
+          "last": false,
+          "max": false,
+          "column": "model",
+          "count": false,
+          "sum": false,
+          "concat": false,
+          "type": "string",
+          "$agg": "first",
+          "countDistinct": false,
+          "min": false,
+          "avg": false,
+          "stddev": false,
+          "first": true,
+          "orderColumn": "timestamp"
+        }
+      ]
     }
   ],
   "computedColumns": [],
-  "customAggregates": []
+  "customAggregates": [],
+  "enginesPreferences": {}
 }
