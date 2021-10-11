@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633956512972
+    "lastModifiedOn": 1633966188363
   },
   "creationTag": {
     "versionNumber": 0,
@@ -92,6 +92,10 @@
       },
       {
         "name": "status",
+        "type": "string"
+      },
+      {
+        "name": "status_code",
         "type": "bigint"
       },
       {
@@ -112,37 +116,31 @@
       },
       {
         "name": "model",
-        "type": "string",
-        "comment": "Model name"
+        "type": "string"
       },
       {
         "name": "geopoint",
         "type": "string"
       },
       {
-        "name": "trivial_identity_status",
-        "type": "float",
-        "comment": "Median forecasts of [1] using trivial_identity model"
+        "name": "trivial_identity_status_code",
+        "type": "float"
       },
       {
-        "name": "seasonal_naive_status",
-        "type": "float",
-        "comment": "Median forecasts of [1] using seasonal_naive model"
+        "name": "seasonal_naive_status_code",
+        "type": "float"
       },
       {
-        "name": "simplefeedforward_status",
-        "type": "float",
-        "comment": "Median forecasts of [1] using simplefeedforward model"
+        "name": "simplefeedforward_status_code",
+        "type": "float"
       },
       {
         "name": "row_origin",
-        "type": "string",
-        "comment": "Row origin"
+        "type": "string"
       },
       {
         "name": "training_session",
-        "type": "string",
-        "comment": "Timestamp of training session"
+        "type": "string"
       }
     ],
     "userModified": false
