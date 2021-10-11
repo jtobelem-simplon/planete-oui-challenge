@@ -25,14 +25,57 @@
     },
     "autoRefreshSample": false
   },
-  "explorationFilters": [],
+  "explorationFilters": [
+    {
+      "validityFilter": {
+        "column": "timestamp",
+        "type": "validity",
+        "params": {
+          "nok": true,
+          "type": "Date",
+          "ok": true,
+          "empty": true
+        }
+      },
+      "column": "timestamp",
+      "active": true,
+      "alphanumFilter": {
+        "values": [],
+        "column": "timestamp",
+        "type": "alphanum",
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "type": "columnFilter",
+      "$$hashKey": "object:87925",
+      "facet": {
+        "dateFilterType": "RANGE",
+        "selectedValues": {},
+        "maxValue": 1606089600000,
+        "timezone": "UTC",
+        "dateFilterPart": "YEAR",
+        "dateFilterRelativeLast": 1,
+        "column": "timestamp",
+        "sort": "count",
+        "type": "facet",
+        "currentMode": "DATE",
+        "columnType": "DATE",
+        "minValue": 1604880000000,
+        "dateFilterRelativeNext": 1,
+        "dateFilterRelativeOption": "THIS"
+      },
+      "currentMode": "FACET"
+    }
+  ],
   "origin": "PREPARE_RECIPE",
   "exploreUIParams": {
     "autoRefresh": true
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FindReplace",
@@ -75,6 +118,30 @@
         "appliesTo": "SINGLE_COLUMN",
         "stopAfterFirstMatch": false,
         "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnDate",
+      "params": {
+        "max": "2020-11-23T00:00:00.000",
+        "columns": [
+          "timestamp"
+        ],
+        "part": "YEAR",
+        "values": [],
+        "relativeMin": 1,
+        "appliesTo": "SINGLE_COLUMN",
+        "min": "2020-11-09T00:00:00.000",
+        "booleanMode": "AND",
+        "relativeMax": 1,
+        "timezone_id": "UTC",
+        "action": "KEEP_ROW",
+        "filterType": "RANGE",
+        "option": "THIS"
       },
       "alwaysShowComment": false
     }
