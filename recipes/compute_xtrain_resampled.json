@@ -3,7 +3,22 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "advanced_activated": false,
+      "time_step": 15,
+      "time_unit": "minutes",
+      "time_unit_end_of_week": "SUN",
+      "interpolation_method": "linear",
+      "constant_value": 0,
+      "extrapolation_method": "clip",
+      "category_imputation_method": "empty",
+      "clip_start": 0,
+      "clip_end": 0,
+      "shift": 0,
+      "groupby_columns": [],
+      "category_constant_value": "",
+      "datetime_column": "timestamp"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -37,11 +52,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633949228243
+    "lastModifiedOn": 1633949262521
   },
   "creationTag": {
     "versionNumber": 0,
