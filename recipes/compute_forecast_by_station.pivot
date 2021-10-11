@@ -41,20 +41,41 @@
       }
     }
   },
-  "explicitIdentifiers": [],
+  "explicitIdentifiers": [
+    "timestamp"
+  ],
   "otherColumns": [],
   "pivots": [
     {
+      "valueLimit": "TOP_N",
       "minOccLimit": 0,
-      "topnLimit": 0,
-      "globalCount": true,
+      "topnLimit": 20,
+      "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
         "station"
       ],
-      "valueColumns": []
+      "valueColumns": [
+        {
+          "last": false,
+          "max": false,
+          "column": "status",
+          "count": false,
+          "sum": false,
+          "concat": false,
+          "type": "double",
+          "$agg": "first",
+          "countDistinct": false,
+          "min": false,
+          "avg": false,
+          "stddev": false,
+          "first": true,
+          "orderColumn": "timestamp"
+        }
+      ]
     }
   ],
   "computedColumns": [],
-  "customAggregates": []
+  "customAggregates": [],
+  "enginesPreferences": {}
 }
