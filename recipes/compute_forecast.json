@@ -8,7 +8,7 @@
       "performance_metric": "MASE",
       "prediction_length": -1,
       "confidence_interval": 95,
-      "include_history": true,
+      "include_history": false,
       "sampling_method": "no_sampling",
       "number_records": 10000
     },
@@ -53,11 +53,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633957862131
+    "lastModifiedOn": 1633958496446
   },
   "creationTag": {
     "versionNumber": 0,
