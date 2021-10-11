@@ -11,7 +11,7 @@
       "additional_columns": true,
       "sampling_method": "no_sampling",
       "number_records": 10000,
-      "prediction_length": 1248,
+      "prediction_length": 1344,
       "forecasting_style": "auto",
       "season_length_min": 1,
       "season_length_H": 24,
@@ -122,11 +122,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633959084232
+    "lastModifiedOn": 1633959142635
   },
   "creationTag": {
     "versionNumber": 0,
