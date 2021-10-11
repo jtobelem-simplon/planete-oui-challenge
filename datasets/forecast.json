@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633966336139
+    "lastModifiedOn": 1633968029007
   },
   "creationTag": {
     "versionNumber": 0,
@@ -68,33 +68,27 @@
       },
       {
         "name": "forecast_lower_status_code",
-        "type": "float",
-        "comment": "Lower bound of the 95% forecasts confidence interval."
+        "type": "float"
       },
       {
         "name": "forecast_status_code",
-        "type": "float",
-        "comment": "Median of probabilistic forecasts"
+        "type": "float"
       },
       {
         "name": "forecast_upper_status_code",
-        "type": "float",
-        "comment": "Upper bound of the 95% forecasts confidence interval."
+        "type": "float"
       },
       {
         "name": "row_origin",
-        "type": "string",
-        "comment": "Row origin"
+        "type": "string"
       },
       {
         "name": "training_session",
-        "type": "string",
-        "comment": "Timestamp of training session"
+        "type": "string"
       },
       {
         "name": "model",
-        "type": "string",
-        "comment": "Model name"
+        "type": "string"
       }
     ],
     "userModified": false
