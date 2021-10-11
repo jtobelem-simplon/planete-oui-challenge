@@ -3,13 +3,13 @@
     "mode": "\u0026\u0026",
     "conditions": [
       {
-        "date": "2020-01-26",
+        "date": "2019-11-25",
         "input": "timestamp",
         "col": "station",
         "time2": "00:00",
         "num": 0,
         "time": "00:00",
-        "date2": "2020-01-27",
+        "date2": "2020-11-08",
         "operator": "\u003e\u003c [date]"
       }
     ]
