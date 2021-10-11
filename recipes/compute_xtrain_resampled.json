@@ -11,7 +11,7 @@
       "interpolation_method": "linear",
       "constant_value": 0,
       "extrapolation_method": "clip",
-      "category_imputation_method": "empty",
+      "category_imputation_method": "clip",
       "clip_start": 0,
       "clip_end": 0,
       "shift": 0,
@@ -52,11 +52,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633949262521
+    "lastModifiedOn": 1633949320596
   },
   "creationTag": {
     "versionNumber": 0,
