@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633957851978
+    "lastModifiedOn": 1633957870503
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,45 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "date"
+      },
+      {
+        "name": "station",
+        "type": "string"
+      },
+      {
+        "name": "status",
+        "type": "double"
+      },
+      {
+        "name": "forecast_lower_status",
+        "type": "float"
+      },
+      {
+        "name": "forecast_status",
+        "type": "float"
+      },
+      {
+        "name": "forecast_upper_status",
+        "type": "float"
+      },
+      {
+        "name": "row_origin",
+        "type": "string"
+      },
+      {
+        "name": "training_session",
+        "type": "string"
+      },
+      {
+        "name": "model",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
