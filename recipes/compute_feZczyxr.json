@@ -9,7 +9,7 @@
       "frequency_step_hours": 1,
       "frequency_step_minutes": 15,
       "additional_columns": true,
-      "sampling_method": "last_records",
+      "sampling_method": "no_sampling",
       "number_records": 10000,
       "prediction_length": 1248,
       "forecasting_style": "auto",
@@ -64,7 +64,7 @@
       "use_gpu": false,
       "gpu_location": "local_gpu",
       "target_columns": [
-        "status"
+        "status_code"
       ],
       "timeseries_identifiers": [
         "station"
@@ -122,11 +122,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633956246384
+    "lastModifiedOn": 1633959084232
   },
   "creationTag": {
     "versionNumber": 0,
