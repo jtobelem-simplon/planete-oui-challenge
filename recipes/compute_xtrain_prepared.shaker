@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,15 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "rain_level": 100,
+    "average_flow": 105,
+    "wind_gust_speed": 128,
+    "temperature": 100,
+    "wind_speed": 100,
+    "traffic_state": 113,
+    "timestamp": 190
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
