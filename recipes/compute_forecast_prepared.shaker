@@ -113,7 +113,7 @@
         ],
         "normalization": "EXACT",
         "columns": [
-          "forecast_status"
+          "forecast_status_code"
         ],
         "appliesTo": "SINGLE_COLUMN",
         "stopAfterFirstMatch": false,
@@ -154,15 +154,18 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
+    "forecast_lower_status_code": 210,
     "row_origin": 120,
     "forecast_lower_status": 173,
     "forecast_upper_status": 173,
     "station": 100,
     "forecast_status": 128,
     "model": 106,
+    "forecast_upper_status_code": 210,
     "timestamp": 183,
     "training_session": 204,
-    "status": 100
+    "status": 100,
+    "forecast_status_code": 165
   },
   "sorting": [],
   "globalSearchQuery": "",
