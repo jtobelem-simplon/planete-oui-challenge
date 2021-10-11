@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633958099055
+    "lastModifiedOn": 1633958734292
   },
   "creationTag": {
     "versionNumber": 0,
@@ -64,86 +64,86 @@
       },
       {
         "name": "S1-T1_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S1-T2_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S1-T3_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S10-T1_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S10-T2_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S10-T3_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S11-T1_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S11-T2_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S11-T3_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S12-T1_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S12-T2_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S12-T3_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S13-T1_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S13-T2_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S13-T3_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S14-T1_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S14-T2_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S14-T3_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S15-T1_status_first",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "S15-T2_status_first",
-        "type": "double"
+        "type": "string"
       }
     ],
-    "userModified": false,
+    "userModified": true,
     "metadata": {
       "engineType": "SQL",
       "pivotElementsModalities": [
