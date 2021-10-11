@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633954057591
+    "lastModifiedOn": 1633956753273
   },
   "creationTag": {
     "versionNumber": 0,
@@ -93,6 +93,10 @@
       {
         "name": "status",
         "type": "tinyint"
+      },
+      {
+        "name": "status_code",
+        "type": "bigint"
       },
       {
         "name": "s_id",
