@@ -26,8 +26,55 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Available",
+            "to": "1"
+          },
+          {
+            "from": "Offline",
+            "to": "5"
+          },
+          {
+            "from": "Down",
+            "to": "3"
+          },
+          {
+            "from": "Charging",
+            "to": "2"
+          },
+          {
+            "from": "Passive",
+            "to": "4"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "status"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +82,23 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "city": 100,
+    "geopoint": 300,
+    "rain_level": 100,
+    "zipcode": 100,
+    "s_id": 100,
+    "average_flow": 106,
+    "wind_gust_speed": 128,
+    "street": 239,
+    "temperature": 100,
+    "station": 100,
+    "wind_speed": 100,
+    "traffic_state": 113,
+    "model": 100,
+    "timestamp": 183,
+    "status": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
