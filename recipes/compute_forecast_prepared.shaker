@@ -120,30 +120,6 @@
         "matching": "FULL_STRING"
       },
       "alwaysShowComment": false
-    },
-    {
-      "preview": true,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "FilterOnDate",
-      "params": {
-        "max": "2020-11-23T00:00:00.000",
-        "columns": [
-          "timestamp"
-        ],
-        "part": "YEAR",
-        "values": [],
-        "relativeMin": 1,
-        "appliesTo": "SINGLE_COLUMN",
-        "min": "2020-11-09T00:00:00.000",
-        "booleanMode": "AND",
-        "relativeMax": 1,
-        "timezone_id": "UTC",
-        "action": "KEEP_ROW",
-        "filterType": "RANGE",
-        "option": "THIS"
-      },
-      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -167,7 +143,12 @@
     "status": 100,
     "forecast_status_code": 165
   },
-  "sorting": [],
+  "sorting": [
+    {
+      "column": "timestamp",
+      "ascending": true
+    }
+  ],
   "globalSearchQuery": "",
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
