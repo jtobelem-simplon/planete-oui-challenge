@@ -3,7 +3,7 @@
     "mode": "ALL"
   },
   "explorationSampling": {
-    "_refreshTrigger": 0,
+    "_refreshTrigger": 1,
     "selection": {
       "filter": {
         "distinct": false,
@@ -20,14 +20,65 @@
       "maxStoredBytes": 104857600,
       "targetRatio": 0.02,
       "maxReadUncompressedBytes": -1,
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "RANDOM_FIXED_NB_EXACT",
       "timeout": -1
     },
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "status",
+        "mapping": [
+          {
+            "from": "5.0",
+            "to": "Charging"
+          },
+          {
+            "from": "4.0",
+            "to": "Down"
+          },
+          {
+            "from": "",
+            "to": ""
+          },
+          {
+            "from": "3.0",
+            "to": "Offline"
+          },
+          {
+            "from": "1.0",
+            "to": "Available"
+          },
+          {
+            "from": "2.0",
+            "to": "Passive"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "forecast_status"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +86,17 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "row_origin": 120,
+    "forecast_lower_status": 173,
+    "forecast_upper_status": 173,
+    "station": 100,
+    "forecast_status": 128,
+    "model": 106,
+    "timestamp": 183,
+    "training_session": 204,
+    "status": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
