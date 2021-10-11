@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633958518872
+    "lastModifiedOn": 1633958711139
   },
   "creationTag": {
     "versionNumber": 0,
@@ -75,6 +75,10 @@
         "name": "forecast_status",
         "type": "double",
         "comment": "Median of probabilistic forecasts"
+      },
+      {
+        "name": "status",
+        "type": "string"
       },
       {
         "name": "forecast_upper_status",
