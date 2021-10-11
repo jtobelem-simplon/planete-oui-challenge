@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633953991306
+    "lastModifiedOn": 1633956473329
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,89 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "date"
+      },
+      {
+        "name": "temperature",
+        "type": "double"
+      },
+      {
+        "name": "wind_speed",
+        "type": "double"
+      },
+      {
+        "name": "wind_gust_speed",
+        "type": "double"
+      },
+      {
+        "name": "rain_level",
+        "type": "double"
+      },
+      {
+        "name": "traffic_state",
+        "type": "string"
+      },
+      {
+        "name": "average_flow",
+        "type": "double"
+      },
+      {
+        "name": "station",
+        "type": "string"
+      },
+      {
+        "name": "status",
+        "type": "bigint"
+      },
+      {
+        "name": "s_id",
+        "type": "string"
+      },
+      {
+        "name": "street",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "zipcode",
+        "type": "bigint"
+      },
+      {
+        "name": "model",
+        "type": "string"
+      },
+      {
+        "name": "geopoint",
+        "type": "string"
+      },
+      {
+        "name": "trivial_identity_status",
+        "type": "float"
+      },
+      {
+        "name": "seasonal_naive_status",
+        "type": "float"
+      },
+      {
+        "name": "simplefeedforward_status",
+        "type": "float"
+      },
+      {
+        "name": "row_origin",
+        "type": "string"
+      },
+      {
+        "name": "training_session",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
