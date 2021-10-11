@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633967839061
+    "lastModifiedOn": 1633967980180
   },
   "creationTag": {
     "versionNumber": 0,
@@ -116,7 +116,8 @@
       },
       {
         "name": "model",
-        "type": "string"
+        "type": "string",
+        "comment": "Model name"
       },
       {
         "name": "geopoint",
@@ -124,23 +125,28 @@
       },
       {
         "name": "trivial_identity_status_code",
-        "type": "float"
+        "type": "float",
+        "comment": "Median forecasts of [1] using trivial_identity model"
       },
       {
         "name": "seasonal_naive_status_code",
-        "type": "float"
+        "type": "float",
+        "comment": "Median forecasts of [1] using seasonal_naive model"
       },
       {
         "name": "simplefeedforward_status_code",
-        "type": "float"
+        "type": "float",
+        "comment": "Median forecasts of [1] using simplefeedforward model"
       },
       {
         "name": "row_origin",
-        "type": "string"
+        "type": "string",
+        "comment": "Row origin"
       },
       {
         "name": "training_session",
-        "type": "string"
+        "type": "string",
+        "comment": "Timestamp of training session"
       }
     ],
     "userModified": false
