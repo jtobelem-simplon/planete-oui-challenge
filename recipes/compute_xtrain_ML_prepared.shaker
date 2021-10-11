@@ -37,7 +37,7 @@
       "disabled": false,
       "type": "FindReplace",
       "params": {
-        "output": "",
+        "output": "status_code",
         "mapping": [
           {
             "from": "Available",
@@ -83,6 +83,7 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
+    "status_code": 100,
     "city": 100,
     "geopoint": 300,
     "rain_level": 100,
