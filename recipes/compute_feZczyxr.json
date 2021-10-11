@@ -8,10 +8,10 @@
       "frequency_end_of_week": "SUN",
       "frequency_step_hours": 1,
       "frequency_step_minutes": 15,
-      "additional_columns": false,
+      "additional_columns": true,
       "sampling_method": "last_records",
       "number_records": 10000,
-      "prediction_length": 1,
+      "prediction_length": 1248,
       "forecasting_style": "auto",
       "season_length_min": 1,
       "season_length_H": 24,
@@ -66,7 +66,9 @@
       "target_columns": [
         "status"
       ],
-      "timeseries_identifiers": [],
+      "timeseries_identifiers": [
+        "station"
+      ],
       "external_feature_columns": [],
       "gpu_devices": [],
       "time_column": "timestamp"
@@ -120,11 +122,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633954027358
+    "lastModifiedOn": 1633954220556
   },
   "creationTag": {
     "versionNumber": 0,
