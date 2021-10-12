@@ -30,7 +30,39 @@
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "steps": [],
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "traffic_state_code",
+        "mapping": [
+          {
+            "from": "Fluid",
+            "to": "0"
+          },
+          {
+            "from": "Busy",
+            "to": "1"
+          },
+          {
+            "from": "Heavy",
+            "to": "2"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "traffic_state"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -43,6 +75,7 @@
     "average_flow": 105,
     "wind_gust_speed": 128,
     "temperature": 100,
+    "traffic_state_code": 150,
     "wind_speed": 100,
     "traffic_state": 113,
     "timestamp": 190
