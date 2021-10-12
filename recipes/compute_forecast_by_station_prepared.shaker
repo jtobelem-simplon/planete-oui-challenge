@@ -82,7 +82,7 @@
           "S15-T1_status_first",
           "S15-T2_status_first"
         ],
-        "appliesTo": "PATTERN",
+        "appliesTo": "COLUMNS",
         "appliesToPattern": "*_status_first",
         "stopAfterFirstMatch": false,
         "matching": "SUBSTRING"
