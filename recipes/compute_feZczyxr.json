@@ -74,7 +74,8 @@
         "rain_level",
         "temperature",
         "wind_gust_speed",
-        "wind_speed"
+        "wind_speed",
+        "traffic_state_code"
       ],
       "gpu_devices": [],
       "time_column": "timestamp"
@@ -128,11 +129,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634024917288
+    "lastModifiedOn": 1634025564601
   },
   "creationTag": {
     "versionNumber": 0,
