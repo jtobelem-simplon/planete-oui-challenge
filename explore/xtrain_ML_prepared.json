@@ -21,7 +21,8 @@
       "zipcode": 100,
       "model": 100,
       "geopoint": 260,
-      "status_code": 100
+      "status_code": 100,
+      "traffic_state_code": 150
     },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
@@ -49,14 +50,14 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "RANDOM_FIXED_NB_EXACT",
+        "samplingMethod": "TAIL_SEQUENTIAL",
         "maxRecords": 10000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 3
+      "_refreshTrigger": 4
     },
     "vizSampling": {
       "autoRefreshSample": false,
