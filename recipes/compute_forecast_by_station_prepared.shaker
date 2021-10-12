@@ -56,7 +56,7 @@
         "mapping": [
           {
             "from": "_status_first",
-            "to": ""
+            "to": "a"
           }
         ],
         "normalization": "EXACT",
