@@ -73,7 +73,6 @@
         "average_flow",
         "rain_level",
         "temperature",
-        "traffic_state",
         "wind_gust_speed",
         "wind_speed"
       ],
@@ -129,11 +128,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634024591158
+    "lastModifiedOn": 1634024917288
   },
   "creationTag": {
     "versionNumber": 0,
