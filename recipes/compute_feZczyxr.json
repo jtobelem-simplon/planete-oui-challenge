@@ -59,7 +59,7 @@
       "auto_num_batches_per_epoch": false,
       "num_batches_per_epoch": 50,
       "evaluation_strategy": "split",
-      "external_feature_activated": false,
+      "external_feature_activated": true,
       "evaluation_only": false,
       "use_gpu": false,
       "gpu_location": "local_gpu",
@@ -69,7 +69,14 @@
       "timeseries_identifiers": [
         "station"
       ],
-      "external_feature_columns": [],
+      "external_feature_columns": [
+        "average_flow",
+        "rain_level",
+        "temperature",
+        "traffic_state",
+        "wind_gust_speed",
+        "wind_speed"
+      ],
       "gpu_devices": [],
       "time_column": "timestamp"
     },
@@ -122,11 +129,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633967583967
+    "lastModifiedOn": 1634024591158
   },
   "creationTag": {
     "versionNumber": 0,
