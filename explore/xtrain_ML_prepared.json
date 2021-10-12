@@ -32,7 +32,7 @@
     "sorting": [
       {
         "column": "timestamp",
-        "ascending": true
+        "ascending": false
       }
     ],
     "analysisColumnData": {},
