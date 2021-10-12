@@ -32,60 +32,16 @@
   },
   "steps": [
     {
-      "preview": false,
+      "preview": true,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "ColumnRenamer",
       "params": {
         "renamings": [
           {
-            "from": "*_status_first",
-            "to": ""
+            "from": "_status_first"
           }
         ]
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": true,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "FindReplace",
-      "params": {
-        "output": "",
-        "mapping": [
-          {
-            "from": "_status_first",
-            "to": ""
-          }
-        ],
-        "normalization": "EXACT",
-        "columns": [
-          "S1-T1_status_first",
-          "S1-T2_status_first",
-          "S1-T3_status_first",
-          "S10-T1_status_first",
-          "S10-T2_status_first",
-          "S10-T3_status_first",
-          "S11-T1_status_first",
-          "S11-T2_status_first",
-          "S11-T3_status_first",
-          "S12-T1_status_first",
-          "S12-T2_status_first",
-          "S12-T3_status_first",
-          "S13-T1_status_first",
-          "S13-T2_status_first",
-          "S13-T3_status_first",
-          "S14-T1_status_first",
-          "S14-T2_status_first",
-          "S14-T3_status_first",
-          "S15-T1_status_first",
-          "S15-T2_status_first"
-        ],
-        "appliesTo": "COLUMNS",
-        "appliesToPattern": "*_status_first",
-        "stopAfterFirstMatch": false,
-        "matching": "PATTERN"
       },
       "alwaysShowComment": false
     }
