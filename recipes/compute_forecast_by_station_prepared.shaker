@@ -56,7 +56,7 @@
         "mapping": [
           {
             "from": "_status_first",
-            "to": "a"
+            "to": ""
           }
         ],
         "normalization": "EXACT",
@@ -85,7 +85,7 @@
         "appliesTo": "COLUMNS",
         "appliesToPattern": "*_status_first",
         "stopAfterFirstMatch": false,
-        "matching": "SUBSTRING"
+        "matching": "PATTERN"
       },
       "alwaysShowComment": false
     }
