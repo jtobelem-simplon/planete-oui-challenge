@@ -26,8 +26,70 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "*_status_first",
+            "to": ""
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "_status_first",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "S1-T1_status_first",
+          "S1-T2_status_first",
+          "S1-T3_status_first",
+          "S10-T1_status_first",
+          "S10-T2_status_first",
+          "S10-T3_status_first",
+          "S11-T1_status_first",
+          "S11-T2_status_first",
+          "S11-T3_status_first",
+          "S12-T1_status_first",
+          "S12-T2_status_first",
+          "S12-T3_status_first",
+          "S13-T1_status_first",
+          "S13-T2_status_first",
+          "S13-T3_status_first",
+          "S14-T1_status_first",
+          "S14-T2_status_first",
+          "S14-T3_status_first",
+          "S15-T1_status_first",
+          "S15-T2_status_first"
+        ],
+        "appliesTo": "PATTERN",
+        "appliesToPattern": "*_status_first",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +97,29 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "S15-T2_status_first": 158,
+    "S11-T1_status_first": 158,
+    "S12-T3_status_first": 158,
+    "S14-T1_status_first": 158,
+    "S14-T2_status_first": 158,
+    "S11-T2_status_first": 158,
+    "S11-T3_status_first": 158,
+    "S14-T3_status_first": 158,
+    "S13-T1_status_first": 158,
+    "S10-T3_status_first": 158,
+    "S1-T3_status_first": 150,
+    "S13-T3_status_first": 158,
+    "S10-T2_status_first": 158,
+    "S10-T1_status_first": 158,
+    "S13-T2_status_first": 158,
+    "S12-T2_status_first": 158,
+    "S1-T2_status_first": 150,
+    "S1-T1_status_first": 150,
+    "S12-T1_status_first": 158,
+    "timestamp": 183,
+    "S15-T1_status_first": 158
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
