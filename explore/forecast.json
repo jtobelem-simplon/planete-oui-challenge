@@ -14,7 +14,10 @@
       "forecast_upper_status": 173,
       "row_origin": 120,
       "training_session": 204,
-      "model": 106
+      "model": 106,
+      "forecast_lower_status_code": 210,
+      "forecast_status_code": 165,
+      "forecast_upper_status_code": 210
     },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
@@ -42,14 +45,14 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "HEAD_SEQUENTIAL",
+        "samplingMethod": "RANDOM_FIXED_NB_EXACT",
         "maxRecords": 10000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1
     },
     "vizSampling": {
       "autoRefreshSample": false,
