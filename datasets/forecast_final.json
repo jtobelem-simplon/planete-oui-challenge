@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634020003126
+    "lastModifiedOn": 1634020362969
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,93 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "date"
+      },
+      {
+        "name": "S1-T1",
+        "type": "string"
+      },
+      {
+        "name": "S1-T2",
+        "type": "string"
+      },
+      {
+        "name": "S1-T3",
+        "type": "string"
+      },
+      {
+        "name": "S10-T1",
+        "type": "string"
+      },
+      {
+        "name": "S10-T2",
+        "type": "string"
+      },
+      {
+        "name": "S10-T3",
+        "type": "string"
+      },
+      {
+        "name": "S11-T1",
+        "type": "string"
+      },
+      {
+        "name": "S11-T2",
+        "type": "string"
+      },
+      {
+        "name": "S11-T3",
+        "type": "string"
+      },
+      {
+        "name": "S12-T1",
+        "type": "string"
+      },
+      {
+        "name": "S12-T2",
+        "type": "string"
+      },
+      {
+        "name": "S12-T3",
+        "type": "string"
+      },
+      {
+        "name": "S13-T1",
+        "type": "string"
+      },
+      {
+        "name": "S13-T2",
+        "type": "string"
+      },
+      {
+        "name": "S13-T3",
+        "type": "string"
+      },
+      {
+        "name": "S14-T1",
+        "type": "string"
+      },
+      {
+        "name": "S14-T2",
+        "type": "string"
+      },
+      {
+        "name": "S14-T3",
+        "type": "string"
+      },
+      {
+        "name": "S15-T1",
+        "type": "string"
+      },
+      {
+        "name": "S15-T2",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
