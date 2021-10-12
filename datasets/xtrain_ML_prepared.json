@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1633956950488
+    "lastModifiedOn": 1634025507902
   },
   "creationTag": {
     "versionNumber": 0,
@@ -81,6 +81,10 @@
       {
         "name": "traffic_state",
         "type": "string"
+      },
+      {
+        "name": "traffic_state_code",
+        "type": "bigint"
       },
       {
         "name": "average_flow",
