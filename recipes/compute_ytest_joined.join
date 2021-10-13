@@ -29,6 +29,11 @@
   ],
   "selectedColumns": [
     {
+      "name": "timestamp",
+      "type": "date",
+      "table": 0
+    },
+    {
       "name": "timestamp_year",
       "type": "bigint",
       "table": 0
@@ -173,6 +178,10 @@
     "$status": {
       "schema": {
         "columns": [
+          {
+            "name": "timestamp",
+            "type": "date"
+          },
           {
             "name": "timestamp_year",
             "type": "bigint"
