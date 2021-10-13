@@ -12,7 +12,7 @@ yrandom_df = yrandom.get_dataframe()
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
-yrandom_long_df = yrandom_df.melt(ytrain_long_df, id_vars=['timestamp'], var_name='station', value_name='status')
+yrandom_long_df = yrandom_df.melt(id_vars=['timestamp'], var_name='station', value_name='status')
 
 
 # Write recipe outputs
