@@ -8,6 +8,7 @@
   "filterInputColumns": true,
   "useGPU": false,
   "keptInputColumns": [
+    "timestamp",
     "station"
   ],
   "pythonBatchSize": 100000,
