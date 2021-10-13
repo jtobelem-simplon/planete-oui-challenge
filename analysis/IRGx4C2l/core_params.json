@@ -6,7 +6,26 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "timestamp_year": 120,
+      "timestamp_month": 128,
+      "timestamp_day": 113,
+      "timestamp_day_of_week": 173,
+      "timestamp_hour": 120,
+      "timestamp_min": 113,
+      "temperature": 106,
+      "wind_speed": 100,
+      "wind_gust_speed": 128,
+      "rain_level": 100,
+      "traffic_state": 113,
+      "average_flow": 105,
+      "station": 100,
+      "status": 100,
+      "s_id": 100,
+      "zipcode": 100,
+      "model": 100,
+      "geopoint": 267
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -28,20 +47,22 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "HEAD_SEQUENTIAL",
+        "samplingMethod": "RANDOM_FIXED_NB_EXACT",
         "maxRecords": 10000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1
     },
     "vizSampling": {
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -49,11 +70,11 @@
   "charts": [],
   "name": "Analyze xtrain_ML_XGB_prepared",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634129484301
+    "lastModifiedOn": 1634129605285
   },
   "creationTag": {
     "versionNumber": 0,
