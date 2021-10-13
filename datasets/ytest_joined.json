@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634132378038
+    "lastModifiedOn": 1634132490564
   },
   "creationTag": {
     "versionNumber": 0,
@@ -113,6 +113,10 @@
       {
         "name": "average_flow",
         "type": "double"
+      },
+      {
+        "name": "s_id",
+        "type": "string"
       },
       {
         "name": "zipcode",
