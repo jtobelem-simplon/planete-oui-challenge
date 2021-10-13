@@ -61,20 +61,6 @@
         "outDayColumn": "timestamp_day"
       },
       "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "ColumnsSelector",
-      "params": {
-        "columns": [
-          "timestamp"
-        ],
-        "keep": false,
-        "appliesTo": "SINGLE_COLUMN"
-      },
-      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
