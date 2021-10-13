@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634133017339
+    "lastModifiedOn": 1634133274172
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,92 +59,8 @@
   "schema": {
     "columns": [
       {
-        "name": "timestamp_year",
-        "type": "bigint"
-      },
-      {
-        "name": "timestamp_month",
-        "type": "bigint"
-      },
-      {
-        "name": "timestamp_day",
-        "type": "bigint"
-      },
-      {
-        "name": "timestamp_day_of_week",
-        "type": "bigint"
-      },
-      {
-        "name": "timestamp_hour",
-        "type": "bigint"
-      },
-      {
-        "name": "timestamp_min",
-        "type": "bigint"
-      },
-      {
         "name": "station",
         "type": "string"
-      },
-      {
-        "name": "temperature",
-        "type": "double"
-      },
-      {
-        "name": "wind_speed",
-        "type": "double"
-      },
-      {
-        "name": "wind_gust_speed",
-        "type": "double"
-      },
-      {
-        "name": "rain_level",
-        "type": "double"
-      },
-      {
-        "name": "traffic_state",
-        "type": "string"
-      },
-      {
-        "name": "traffic_state_code",
-        "type": "double"
-      },
-      {
-        "name": "average_flow",
-        "type": "double"
-      },
-      {
-        "name": "s_id",
-        "type": "string"
-      },
-      {
-        "name": "zipcode",
-        "type": "bigint"
-      },
-      {
-        "name": "model",
-        "type": "string"
-      },
-      {
-        "name": "proba_Available",
-        "type": "double"
-      },
-      {
-        "name": "proba_Offline",
-        "type": "double"
-      },
-      {
-        "name": "proba_Down",
-        "type": "double"
-      },
-      {
-        "name": "proba_Passive",
-        "type": "double"
-      },
-      {
-        "name": "proba_Charging",
-        "type": "double"
       },
       {
         "name": "prediction",
