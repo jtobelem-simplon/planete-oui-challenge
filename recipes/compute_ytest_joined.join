@@ -99,6 +99,11 @@
       "table": 0
     },
     {
+      "name": "s_id",
+      "type": "string",
+      "table": 1
+    },
+    {
       "name": "zipcode",
       "type": "string",
       "table": 1
@@ -218,6 +223,10 @@
           {
             "name": "average_flow",
             "type": "double"
+          },
+          {
+            "name": "s_id",
+            "type": "string"
           },
           {
             "name": "zipcode",
