@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634129104215
+    "lastModifiedOn": 1634129270738
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,8 +59,28 @@
   "schema": {
     "columns": [
       {
-        "name": "timestamp",
-        "type": "date"
+        "name": "timestamp_year",
+        "type": "bigint"
+      },
+      {
+        "name": "timestamp_month",
+        "type": "bigint"
+      },
+      {
+        "name": "timestamp_day",
+        "type": "bigint"
+      },
+      {
+        "name": "timestamp_day_of_week",
+        "type": "bigint"
+      },
+      {
+        "name": "timestamp_hour",
+        "type": "bigint"
+      },
+      {
+        "name": "timestamp_min",
+        "type": "bigint"
       },
       {
         "name": "temperature",
@@ -83,10 +103,6 @@
         "type": "string"
       },
       {
-        "name": "traffic_state_code",
-        "type": "bigint"
-      },
-      {
         "name": "average_flow",
         "type": "double"
       },
@@ -99,19 +115,7 @@
         "type": "string"
       },
       {
-        "name": "status_code",
-        "type": "bigint"
-      },
-      {
         "name": "s_id",
-        "type": "string"
-      },
-      {
-        "name": "street",
-        "type": "string"
-      },
-      {
-        "name": "city",
         "type": "string"
       },
       {
