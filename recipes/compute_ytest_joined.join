@@ -4,98 +4,103 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {},
+        "maxMatches": 1,
+        "type": "KEEP_LARGEST",
+        "enabled": false
+      },
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "station",
+            "table": 0
+          },
+          "column2": {
+            "name": "t_id",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "timestamp_year",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "timestamp_month",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "timestamp_day",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "timestamp_day_of_week",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "timestamp_hour",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "timestamp_min",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "station",
+      "type": "string",
       "table": 0
     },
     {
       "name": "temperature",
+      "type": "double",
       "table": 0
     },
     {
       "name": "wind_speed",
+      "type": "double",
       "table": 0
     },
     {
       "name": "wind_gust_speed",
+      "type": "double",
       "table": 0
     },
     {
       "name": "rain_level",
+      "type": "double",
       "table": 0
     },
     {
       "name": "traffic_state",
+      "type": "string",
       "table": 0
     },
     {
       "name": "traffic_state_code",
+      "type": "double",
       "table": 0
     },
     {
       "name": "average_flow",
+      "type": "double",
       "table": 0
     },
     {
-      "name": "t_id",
-      "table": 1
-    },
-    {
-      "name": "s_id",
-      "table": 1
-    },
-    {
-      "name": "latitude",
-      "table": 1
-    },
-    {
-      "name": "longitude",
-      "table": 1
-    },
-    {
-      "name": "street",
-      "table": 1
-    },
-    {
-      "name": "city",
-      "table": 1
-    },
-    {
       "name": "zipcode",
-      "table": 1
-    },
-    {
-      "name": "model",
+      "type": "string",
       "table": 1
     }
   ],
@@ -153,5 +158,75 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "timestamp_year",
+            "type": "bigint"
+          },
+          {
+            "name": "timestamp_month",
+            "type": "bigint"
+          },
+          {
+            "name": "timestamp_day",
+            "type": "bigint"
+          },
+          {
+            "name": "timestamp_day_of_week",
+            "type": "bigint"
+          },
+          {
+            "name": "timestamp_hour",
+            "type": "bigint"
+          },
+          {
+            "name": "timestamp_min",
+            "type": "bigint"
+          },
+          {
+            "name": "station",
+            "type": "string"
+          },
+          {
+            "name": "temperature",
+            "type": "double"
+          },
+          {
+            "name": "wind_speed",
+            "type": "double"
+          },
+          {
+            "name": "wind_gust_speed",
+            "type": "double"
+          },
+          {
+            "name": "rain_level",
+            "type": "double"
+          },
+          {
+            "name": "traffic_state",
+            "type": "string"
+          },
+          {
+            "name": "traffic_state_code",
+            "type": "double"
+          },
+          {
+            "name": "average_flow",
+            "type": "double"
+          },
+          {
+            "name": "zipcode",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
