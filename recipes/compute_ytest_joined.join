@@ -107,6 +107,11 @@
       "name": "zipcode",
       "type": "string",
       "table": 1
+    },
+    {
+      "name": "model",
+      "type": "string",
+      "table": 1
     }
   ],
   "engineParams": {
@@ -230,6 +235,10 @@
           },
           {
             "name": "zipcode",
+            "type": "string"
+          },
+          {
+            "name": "model",
             "type": "string"
           }
         ],
