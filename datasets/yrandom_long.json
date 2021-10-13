@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634130001742
+    "lastModifiedOn": 1634130131475
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,21 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "string"
+      },
+      {
+        "name": "station",
+        "type": "string"
+      },
+      {
+        "name": "status",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
