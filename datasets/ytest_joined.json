@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634132343577
+    "lastModifiedOn": 1634132378038
   },
   "creationTag": {
     "versionNumber": 0,
@@ -115,35 +115,7 @@
         "type": "double"
       },
       {
-        "name": "t_id",
-        "type": "string"
-      },
-      {
-        "name": "s_id",
-        "type": "string"
-      },
-      {
-        "name": "latitude",
-        "type": "string"
-      },
-      {
-        "name": "longitude",
-        "type": "string"
-      },
-      {
-        "name": "street",
-        "type": "string"
-      },
-      {
-        "name": "city",
-        "type": "string"
-      },
-      {
         "name": "zipcode",
-        "type": "string"
-      },
-      {
-        "name": "model",
         "type": "string"
       }
     ],
