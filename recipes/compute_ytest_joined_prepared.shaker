@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,25 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "timestamp_year": 148,
+    "timestamp_min": 141,
+    "rain_level": 120,
+    "zipcode": 100,
+    "s_id": 100,
+    "timestamp_hour": 148,
+    "average_flow": 134,
+    "wind_gust_speed": 155,
+    "timestamp_month": 155,
+    "timestamp_day_of_week": 197,
+    "station": 100,
+    "temperature": 127,
+    "traffic_state_code": 176,
+    "wind_speed": 120,
+    "traffic_state": 141,
+    "model": 100,
+    "timestamp_day": 141
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
