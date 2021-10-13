@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634131446448
+    "lastModifiedOn": 1634131467236
   },
   "creationTag": {
     "versionNumber": 0,
@@ -64,10 +64,6 @@
       },
       {
         "name": "station",
-        "type": "string"
-      },
-      {
-        "name": "status",
         "type": "string"
       },
       {
