@@ -115,7 +115,8 @@
     "wind_speed": 120,
     "traffic_state": 141,
     "model": 100,
-    "timestamp_day": 141
+    "timestamp_day": 141,
+    "timestamp": 183
   },
   "sorting": [],
   "globalSearchQuery": "",
