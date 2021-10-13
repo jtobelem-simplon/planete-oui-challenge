@@ -12,7 +12,7 @@ ytest_joined_prepared_scored_df = ytest_joined_prepared_scored.get_dataframe()
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
-final2_df = ytest_joined_prepared_scored_df.pivot_table(values='status', index='timestamp', columns='station', aggfunc='first').reset_index()
+final2_df = ytest_joined_prepared_scored_df.pivot_table(values='prediction', index='timestamp', columns='station', aggfunc='first').reset_index()
 
 
 # Write recipe outputs
