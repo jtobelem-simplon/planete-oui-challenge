@@ -44,6 +44,37 @@
         "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateComponentsExtractor",
+      "params": {
+        "outMonthColumn": "timestamp_month",
+        "outHourColumn": "timestamp_hour",
+        "outYearColumn": "timestamp_year",
+        "column": "timestamp",
+        "outDayOfWeekColumn": "timestamp_day_of_week",
+        "timezone_id": "UTC",
+        "outMinuteColumn": "timestamp_min",
+        "outDayColumn": "timestamp_day"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "timestamp"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -54,14 +85,20 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
+    "timestamp_year": 120,
+    "timestamp_min": 113,
     "rain_level": 100,
+    "timestamp_hour": 120,
     "average_flow": 105,
     "wind_gust_speed": 128,
+    "timestamp_month": 128,
     "station": 100,
     "temperature": 141,
     "traffic_state_code": 150,
+    "timestamp_day_of_week": 173,
     "wind_speed": 106,
     "traffic_state": 113,
+    "timestamp_day": 113,
     "timestamp": 183,
     "status": 100
   },
