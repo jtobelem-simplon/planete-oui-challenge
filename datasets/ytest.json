@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634132216977
+    "lastModifiedOn": 1634132877160
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,6 +58,10 @@
   },
   "schema": {
     "columns": [
+      {
+        "name": "timestamp",
+        "type": "date"
+      },
       {
         "name": "timestamp_year",
         "type": "bigint"
