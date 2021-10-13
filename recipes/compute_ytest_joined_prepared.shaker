@@ -30,7 +30,67 @@
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "steps": [],
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Tokenizer",
+      "params": {
+        "inCol": "model",
+        "sortAlphabetically": false,
+        "normalize": false,
+        "language": "english",
+        "clearStopWords": false,
+        "operation": "TO_JSON",
+        "stem": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ArraySortProcessor",
+      "params": {
+        "input": "model",
+        "sortingType": "ALPHA",
+        "descending": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "[\"CHAdeMO\",\"Combo\",\"E\",\"F\",\"T2\",\"T3\"]",
+            "to": "ALL"
+          },
+          {
+            "from": "[\"E\",\"F\"]",
+            "to": "E/F"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "model"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
