@@ -26,8 +26,47 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateComponentsExtractor",
+      "params": {
+        "outMonthColumn": "timestamp_month",
+        "outHourColumn": "timestamp_hour",
+        "outYearColumn": "timestamp_year",
+        "column": "timestamp",
+        "outDayOfWeekColumn": "timestamp_day_of_week",
+        "timezone_id": "UTC",
+        "outMinuteColumn": "timestamp_min",
+        "outDayColumn": "timestamp_day"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "city",
+          "street",
+          "status_code",
+          "traffic_state_code",
+          "timestamp"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +74,31 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "timestamp_year": 120,
+    "status_code": 100,
+    "city": 100,
+    "timestamp_min": 113,
+    "geopoint": 267,
+    "rain_level": 100,
+    "zipcode": 100,
+    "s_id": 100,
+    "timestamp_hour": 120,
+    "average_flow": 106,
+    "wind_gust_speed": 128,
+    "street": 169,
+    "timestamp_month": 128,
+    "temperature": 113,
+    "traffic_state_code": 150,
+    "station": 100,
+    "timestamp_day_of_week": 173,
+    "wind_speed": 100,
+    "traffic_state": 113,
+    "model": 100,
+    "timestamp_day": 113,
+    "timestamp": 183,
+    "status": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
