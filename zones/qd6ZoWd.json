@@ -31,10 +31,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "forecast_final",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "metrics",
       "objectType": "DATASET"
     },
