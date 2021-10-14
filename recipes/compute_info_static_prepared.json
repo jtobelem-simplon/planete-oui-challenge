@@ -64,7 +64,7 @@
     "main": {
       "items": [
         {
-          "ref": "info2",
+          "ref": "info_static_prepared",
           "appendMode": false
         }
       ]
@@ -72,11 +72,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634223619187
+    "lastModifiedOn": 1634223739244
   },
   "creationTag": {
     "versionNumber": 0,
