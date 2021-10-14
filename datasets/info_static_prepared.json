@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634223736029
+    "lastModifiedOn": 1634223739118
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,36 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "t_id",
+        "type": "string"
+      },
+      {
+        "name": "s_id",
+        "type": "string"
+      },
+      {
+        "name": "street",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "zipcode",
+        "type": "bigint"
+      },
+      {
+        "name": "model",
+        "type": "string"
+      },
+      {
+        "name": "geopoint",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
