@@ -31,10 +31,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_ytrain_prepared_filtered",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "ytrain_prepared",
       "objectType": "DATASET"
     },
