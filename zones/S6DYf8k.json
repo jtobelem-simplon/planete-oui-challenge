@@ -93,6 +93,10 @@
     {
       "objectId": "info2",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "info_static_prepared",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
