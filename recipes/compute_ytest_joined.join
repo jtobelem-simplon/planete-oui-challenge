@@ -110,7 +110,7 @@
     },
     {
       "name": "zipcode",
-      "type": "string",
+      "type": "bigint",
       "table": 1
     },
     {
@@ -164,13 +164,7 @@
       "computedColumns": []
     },
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "index": 1,
-      "computedColumns": []
+      "index": 1
     }
   ],
   "computedColumns": [],
@@ -244,7 +238,7 @@
           },
           {
             "name": "zipcode",
-            "type": "string"
+            "type": "bigint"
           },
           {
             "name": "model",
