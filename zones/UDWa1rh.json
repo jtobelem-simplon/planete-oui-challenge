@@ -7,10 +7,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "ytrain_NpxebDC",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "ytrain_benchmark_prepared",
       "objectType": "DATASET"
     }
