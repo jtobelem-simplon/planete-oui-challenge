@@ -27,10 +27,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "ytrain_prepared_filtered",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "compute_ytrain_long",
       "objectType": "RECIPE"
     },
