@@ -47,6 +47,18 @@
       "objectType": "DATASET"
     },
     {
+      "objectId": "compute_ytrain_long_db",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytrain_long",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_ytrain_long",
+      "objectType": "RECIPE"
+    },
+    {
       "objectId": "compute_info_static_prepared",
       "objectType": "RECIPE"
     },
