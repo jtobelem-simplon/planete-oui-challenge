@@ -35,14 +35,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "info_static_prepared",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_info_static_prepared_db",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "info_static_prepared_db",
       "objectType": "DATASET"
     },
