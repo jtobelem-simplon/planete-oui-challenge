@@ -89,6 +89,22 @@
     {
       "objectId": "compute_xtrain_prepared",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "xtest_resampled",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_xtest_resampled",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "xtest_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_xtest_prepared",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
