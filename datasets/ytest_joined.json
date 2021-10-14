@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634133138483
+    "lastModifiedOn": 1634224006803
   },
   "creationTag": {
     "versionNumber": 0,
@@ -124,7 +124,7 @@
       },
       {
         "name": "zipcode",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "model",
