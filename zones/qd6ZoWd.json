@@ -3,10 +3,6 @@
   "color": "#D03713",
   "items": [
     {
-      "objectId": "compute_xtest_prepared",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "compute_xtrain_prepared",
       "objectType": "RECIPE"
     },
@@ -31,14 +27,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "xtest_prepared",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_xtest_resampled",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "compute_xtrain_resampled",
       "objectType": "RECIPE"
     },
@@ -52,10 +40,6 @@
     },
     {
       "objectId": "ytrain_long_db",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "xtest_resampled",
       "objectType": "DATASET"
     },
     {
