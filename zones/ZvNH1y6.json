@@ -1,7 +1,56 @@
 {
   "name": "XGB",
   "color": "#4B8021",
-  "items": [],
+  "items": [
+    {
+      "objectId": "xtrain_ML_XGB_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "train_Prediction__XGBOOST_CLASSIFICATION__on_xtrain_ML_XGB_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "5r5aVmAh",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "score_ytest_joined_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytest_joined_prepared_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_final2",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "final2",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "ytest_joined_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_ytest_joined_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytest_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_ytest_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_xtrain_ML_XGB_prepared",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
