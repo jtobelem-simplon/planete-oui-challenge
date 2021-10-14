@@ -15,7 +15,12 @@
       "individualColumns": [],
       "valueColoringMode": "HASH"
     },
-    "sorting": [],
+    "sorting": [
+      {
+        "column": "timestamp",
+        "ascending": false
+      }
+    ],
     "analysisColumnData": {},
     "explorationSampling": {
       "selection": {
@@ -31,14 +36,14 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "RANDOM_FIXED_NB_EXACT",
-        "maxRecords": 10000,
+        "samplingMethod": "TAIL_SEQUENTIAL",
+        "maxRecords": 1000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1
+      "_refreshTrigger": 3
     },
     "vizSampling": {
       "autoRefreshSample": false,
