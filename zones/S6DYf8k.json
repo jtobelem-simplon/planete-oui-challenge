@@ -105,6 +105,22 @@
     {
       "objectId": "compute_xtest_prepared",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_yrandom_long",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "yrandom_long",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_yrandom_long_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "yrandom_long_prepared",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],

@@ -65,22 +65,6 @@
     {
       "objectId": "compute_yrandom_long_prepared_joined",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "yrandom_long_prepared",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_yrandom_long_prepared",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "yrandom_long",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_yrandom_long",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
