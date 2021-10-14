@@ -39,10 +39,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "final_xgb",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "final_automl",
       "objectType": "DATASET"
     }
