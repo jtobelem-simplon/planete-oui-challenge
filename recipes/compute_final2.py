@@ -16,5 +16,5 @@ final2_df = ytest_joined_prepared_scored_df.pivot_table(values='prediction', ind
 
 
 # Write recipe outputs
-final2 = dataiku.Dataset("finalxgb")
+final2 = dataiku.Dataset("final_xgb")
 final2.write_with_schema(final2_df)
