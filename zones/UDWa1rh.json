@@ -1,7 +1,20 @@
 {
   "name": "benchmark",
   "color": "#F9BE40",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_ytrain_benchmark_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytrain_NpxebDC",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "ytrain_benchmark_prepared",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
