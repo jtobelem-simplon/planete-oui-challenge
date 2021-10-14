@@ -17,7 +17,7 @@
           "deps": []
         },
         {
-          "ref": "info_static_prepared_db",
+          "ref": "info_static_prepared",
           "deps": []
         }
       ]
@@ -35,11 +35,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634223008970
+    "lastModifiedOn": 1634223848907
   },
   "creationTag": {
     "versionNumber": 0,
