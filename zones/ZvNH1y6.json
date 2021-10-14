@@ -27,10 +27,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "final2",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "ytest_joined_prepared",
       "objectType": "DATASET"
     },
