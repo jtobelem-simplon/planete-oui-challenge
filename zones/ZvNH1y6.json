@@ -65,6 +65,10 @@
     {
       "objectId": "compute_yrandom_long_prepared_joined",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "final_xgb",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
