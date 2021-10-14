@@ -1,7 +1,152 @@
 {
   "name": "time series plugin",
   "color": "#D03713",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_xtest_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_xtrain_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_info_static_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_ytrain_long",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytrain_long",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "info_static_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "xtrain_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "xtest_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_xtest_resampled",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_xtrain_resampled",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_info_static_prepared_db",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_ytrain_long_db",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytrain_long_db",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "xtest_resampled",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "info_static_prepared_db",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_ytrain_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "xtrain_resampled",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "ytrain_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_ytrain_prepared_filtered",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytrain_prepared_filtered",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_ytrain_prepared_filtered_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "ytrain_prepared_filtered_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_xtrain_resampled_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "xtrain_resampled_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_xtrain_ML_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "xtrain_ML_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_feZczyxr",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "feZczyxr",
+      "objectType": "MANAGED_FOLDER"
+    },
+    {
+      "objectId": "compute_forecast",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "forecast",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_forecast_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "forecast_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_forecast_final",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "forecast_final",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "metrics",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "evaluation",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
