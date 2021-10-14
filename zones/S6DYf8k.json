@@ -47,14 +47,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_ytrain_long_db",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "ytrain_long",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "compute_ytrain_long",
       "objectType": "RECIPE"
     },
