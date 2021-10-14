@@ -32,7 +32,7 @@
     "main": {
       "items": [
         {
-          "ref": "forecast_final",
+          "ref": "final_xgb",
           "appendMode": false
         }
       ]
@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634040388775
+    "lastModifiedOn": 1634224267703
   },
   "creationTag": {
     "versionNumber": 0,

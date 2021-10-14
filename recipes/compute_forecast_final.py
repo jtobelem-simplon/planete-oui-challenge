@@ -16,5 +16,5 @@ forecast_final_df = forecast_prepared_df.pivot_table(values='status', index='tim
 
 
 # Write recipe outputs
-forecast_final = dataiku.Dataset("forecast_final")
+forecast_final = dataiku.Dataset("final_xgb")
 forecast_final.write_with_schema(forecast_final_df)
