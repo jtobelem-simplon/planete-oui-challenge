@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jtobelem"
     },
-    "lastModifiedOn": 1634219434692
+    "lastModifiedOn": 1634219562417
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,8 +59,16 @@
   "schema": {
     "columns": [
       {
-        "name": "timestamp",
-        "type": "date"
+        "name": "day_of_week",
+        "type": "bigint"
+      },
+      {
+        "name": "hour",
+        "type": "bigint"
+      },
+      {
+        "name": "minutes",
+        "type": "bigint"
       },
       {
         "name": "S7-T1",
